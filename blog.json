@@ -1,0 +1,41 @@
+
+[
+    {
+        "title":"First",
+        "autor":"Vladislav",
+        "date":"2023-05-10",
+        "text":"bla bla bla",
+        "helptext":"Of course, not all these texts were originally written in English"
+
+
+    },
+    {
+        "title":"Second",
+        "autor":"Nik",
+        "date":"2023-14-10",
+        "text":"what what what",
+        "helptext":"These are short, famous texts in English from classic sources like the Bible or Shakespeare."
+
+
+    },
+    {
+        "title":"Third",
+        "autor":"Olesya",
+        "date":"2023-16-12",
+        "text":"aaa aaa aaa",
+        "helptext":"Some texts have word definitions and explanations to help you."
+
+
+
+    },
+    {
+        "title":"Four",
+        "autor":"Tsiri",
+        "date":"2023-01.09",
+        "text":"mya mya mya",
+        "helptext":"Try to understand them, because the English that we speak today is based on what our great, great, great, great grandparents spoke before!"
+
+
+
+    }
+]

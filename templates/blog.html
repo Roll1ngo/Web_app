@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcone to my blog</title>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/style.css" />
+      </head>
+</head>
+<body>
+    <header>
+        <nav
+        class="navbar navbar-expand navbar-dark bg-dark"
+        aria-label="Second navbar example"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="logo.png">
+            <img src="/logo.png" alt="logo" />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Головна</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Зв'язатися зі мною</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog">Блог</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      </header>
+    <h1><p style="margin-left: 10px;">Welcome to My test Blog</p></h1>
+    {%for record in blogs%}
+
+    <article>
+
+        <h2><p style="margin-left: 40px;">{{record.title}}</p></h2>
+        <p style="margin-left: 50px;">{{record.autor}}</p>
+        <p style="margin-left: 60px;">{{record.date}}</p>
+        <p style="margin-left: 70px;">{{record.text}}</p>
+        <p style="margin-left: 80px;">{{record.helptext}}</p>
+      
+    </article>
+    {% endfor %}
+</body>
+</html>
